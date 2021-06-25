@@ -1,0 +1,17 @@
+@mixin commoncode {
+    text-transform: capitalize;
+    }
+   
+   @mixin header ($bgcolor, $changeclr){
+       width: 100% - 20%;
+       height: 100vh;
+       margin: 0 auto;
+       background-color: $bgcolor;
+       color: $changeclr;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       line-height: 2em;
+   
+   }
